@@ -1,5 +1,7 @@
+<p-menubar [model]="items">
 
-
-<h1>HELLO SCBNB</h1>
-
-<p-button label="Submit" />
+</p-menubar>
+<div style="padding: 2em; display: flex; justify-content: center; align-items: center;">
+    <p-calendar [(ngModel)]="value" [inline]="true" selectionMode="range"></p-calendar>
+</div>
+{{value}}
