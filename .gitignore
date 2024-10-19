@@ -3,3 +3,4 @@ angular/.vscode
 angular/.gitignore
 angular/.git
 angular/.editorconfig
+.env
